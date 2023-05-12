@@ -1,0 +1,91 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.button {
+  display: inline-block;
+  padding: 13px 45px;
+  border-radius: 100rem;
+  font-family: $font;
+  line-height: 1;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+
+  &--primary {
+    font-weight: 700;
+    background-color: $primary-color;
+    color: #ffffff;
+  }
+
+  &--outline {
+    background-color: transparent;
+    color: $primary-color;
+    font-weight: 500;
+    border: 1px solid;
+  }
+
+  &--rounded {
+    border-radius: 10px;
+    padding: 17px 65px;
+  }
+
+  &--shadow {
+    box-shadow: 0 30px 54px - 5px rgba(245, 56, 56, 0.35);
+  }
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: calc(50 / 35);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.heading-small {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.text {
+  line-height: calc(30 / 16);
+}
+
+.boxed {
+  max-width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1;
+}
